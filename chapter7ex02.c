@@ -151,9 +151,7 @@ total= amYear - (abs(amDay) + amMon);
 else {
 total= abs(amDay) + amMon + amYear;
 }
-printf("day %d\n", amDay);
-printf("month %d\n", amMon);
-printf("year %d\n", amYear);
+
 printf("The total days between the dates %d/%d/%d and %d/%d/%d is %d  days\n", day, month, year, day2, month2, year2, total );
 
  return 0;
